@@ -8,6 +8,9 @@
     <title>Event Layout</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js"></script>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -41,9 +44,6 @@
             </li>
             <li>
                 <a href="#">PORTFOLIO</a>
-            </li>
-            <li>
-                <img src="img/search_icon.png" alt="SEARCH">
             </li>
 
         </ul>
@@ -170,10 +170,10 @@
         </h2>
         <img src="img/line.png">
         <div class="mem">
-            <img src="img/Rectangle-2.png">
-            <img src="img/Rectangle-2.png">
-            <img src="img/Rectangle-3.png">
-        </div>
+                <a class="example-image-link" href="img/Rectangle-2.png" rel="lightbox" data-lightbox="example-set"><img src="img/Rectangle-2.png" class="img_gallery" alt=""></a>
+                <a class="example-image-link" href="img/Rectangle-3.png" rel="lightbox" data-lightbox="example-set"><img src="img/Rectangle-3.png" class="img_gallery" alt=""></a>
+                <a class="example-image-link" href="img/Rectangle-2.png" rel="lightbox" data-lightbox="example-set"><img src="img/Rectangle-2.png" class="img_gallery" alt=""></a>
+            </div>
     </div>
     <div class="project-shedule">
         <div>
@@ -343,11 +343,11 @@
                     SUPPORT
                 </p>
                 <p>
-                    Visit to Forum
-                    <br> Ticket Support
-                    <br> Send us an
-                    <br> F.A.Qs
-                    <br> Our policy
+                    <a href="#">Visit to Forum</a>
+                    <br> <a href="#">Ticket Support</a>
+                    <br><a href="#"> Send us an</a>
+                    <br><a href="#"> F.A.Qs</a>
+                    <br> <a href="#">Our policy</a>
                 </p>
             </div>
 
@@ -356,11 +356,11 @@
                     <bold>INFORMATION</bold>
                 </p>
                 <p>
-                    About us
-                    <br> Careers
-                    <br> F.A.Qs
-                    <br> Terms & Conditions
-                    <br> Our blog
+                    <a href="#">  About us</a><br>
+                    <a href="#"> Careers</a><br>
+                     <a href="#">F.A.Qs</a><br>
+                     <a href="#">Terms & Conditions</a><br>
+                     <a href="#">Our blog</a>
                 </p>
             </div>
 
@@ -372,10 +372,8 @@
                     Signup to receive our interesting news. We never send spam!
                 </p>
                 <div class="olo">
-                    <button>
-                        <span>Your email...</span>
-                    </button>
-                    <img src="img/arow-icon.png">
+                        <input type="email" placeholder="Your email *" id="email">
+                    <button><img src="img/arow-icon.png"></button>
                 </div>
             </div>
         </footer>

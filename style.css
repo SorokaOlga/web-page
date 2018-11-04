@@ -229,8 +229,8 @@ background-image: url("img/main-line.png");
 }
 
 .img-circle-center img:hover {
-width: 150px;
-height: 150px;
+width: 130px;
+height: 130px;
 }
 
 .rectangle {
@@ -425,6 +425,10 @@ left: 0;
                     display: flex;
                     justify-content: center;
                 }
+                footer a {
+                    text-decoration: none;
+                    color: white;
+                }
 
                 footer .column1 {text-align: left;}
 
@@ -447,7 +451,7 @@ left: 0;
                 .fourth button {
                     padding: 0;
                     text-align: left;
-                    width: 220px;
+                    width: 45px;
                     background-color: #595959;
                     border: 1px solid #595959;
         }
@@ -460,6 +464,7 @@ left: 0;
         }
         .olo {
          display: flex;
+         height: 50px;
         }
         .last {
             height: 50px;
@@ -543,7 +548,7 @@ padding-top: 15px;
               
         }
         @media screen and (max-width: 1100px){
-            .olo button{
+            .olo input{
                display: none;
             }    
          }
